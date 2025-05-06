@@ -24,7 +24,7 @@
 	- получение с пагинацией
 
 ## Быстрый запуск
-1. запуск poistgres через docker
+1. запуск postgres через docker
 ```bash
 cd QRCodeApp.API
 docker compose up -d
