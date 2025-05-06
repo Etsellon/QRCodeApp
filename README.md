@@ -32,7 +32,6 @@ docker compose up -d
 
 2. применение миграции
 ```bash
-dotnet ef migrations add initial -s QRCodeApp.API -p QRCodeApp.DataAccess
 dotnet ef database update -s QRCodeApp.API -p QRCodeApp.DataAccess
 ```
 
